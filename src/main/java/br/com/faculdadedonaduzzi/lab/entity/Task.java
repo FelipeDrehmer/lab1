@@ -18,4 +18,6 @@ public class Task {
     @Enumerated(EnumType.STRING)
     private TaskStatus status;
 
+    private String prazo;
+
 }
