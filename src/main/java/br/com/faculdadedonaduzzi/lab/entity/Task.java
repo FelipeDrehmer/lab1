@@ -2,6 +2,7 @@ package br.com.faculdadedonaduzzi.lab.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import java.util.Date;
 
 @Data
 @Entity
@@ -19,5 +20,7 @@ public class Task {
     private TaskStatus status;
 
     private String prazo;
+
+    private Date dataPrevsao;
 
 }
