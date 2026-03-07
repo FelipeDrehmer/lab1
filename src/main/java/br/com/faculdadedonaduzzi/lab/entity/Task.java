@@ -21,6 +21,6 @@ public class Task {
 
     private String prazo;
 
-    private Date dataPrevsao;
+    private Date previsaoData;
 
 }
