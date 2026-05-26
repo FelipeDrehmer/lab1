@@ -28,5 +28,3 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/kanban-api:${{ github.ref_name }}
             ${{ secrets.DOCKER_USERNAME }}/kanban-api:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
