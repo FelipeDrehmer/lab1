@@ -19,7 +19,7 @@ class LabApplicationTests {
 
 	@Test
 	public void getAllTasks() throws Exception {
-		mockMvc.perform(get("/tarefa"))
+		mockMvc.perform(get("/tarefaaa"))
 				.andExpect(status().isOk());
 	}
 
